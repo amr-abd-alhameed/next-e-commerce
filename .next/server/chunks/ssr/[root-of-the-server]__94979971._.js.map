@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/amrN/next/next%20ecommerce%20by%20lama%20dev/next/src/app/page.tsx"],"sourcesContent":["const Homepage = () => {\n  return (\n    <div className=''>Homepage</div>\n  )\n}\n\nexport default Homepage"],"names":[],"mappings":";;;;;AAAA,MAAM,WAAW;IACf,qBACE,8OAAC;QAAI,WAAU;kBAAG;;;;;;AAEtB;uCAEe","debugId":null}}]
+}
