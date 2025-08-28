@@ -536,6 +536,10 @@
 @layer components;
 
 @layer utilities {
+  .relative {
+    position: relative;
+  }
+
   .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -545,12 +549,20 @@
     margin-top: calc(var(--spacing) * 16);
   }
 
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
+  }
+
   .flex {
     display: flex;
   }
 
   .hidden {
     display: none;
+  }
+
+  .aspect-\[3\/1\] {
+    aspect-ratio: 3;
   }
 
   .h-4 {
