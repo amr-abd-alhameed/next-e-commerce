@@ -1,7 +1,7 @@
-export type LinkTypes = {
+export interface FooterColumnProps {
   title: string;
-  link1: string;
-  link2: string;
-  link3: string;
-  link4: string;
-};
+  links: Array<{
+    name: string;
+    href: string;
+  }>;
+}
